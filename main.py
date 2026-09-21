@@ -42,7 +42,7 @@ def predict(
 
     predict=model.predict(data)[0]
 
-    if prob >=0.34:  # thresold 0.34
+    if proba >=0.34:  # thresold 0.34
         predict=1
         churn='yes'
 
