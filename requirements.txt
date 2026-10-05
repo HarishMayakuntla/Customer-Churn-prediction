@@ -17,7 +17,7 @@ recall_score
 classification_report
 confusion_matrix
 roc_auc_score
-roc_auc_curve
+roc_curve
 joblib
 fastapi
 uvicorn
